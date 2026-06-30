@@ -1,7 +1,5 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Link from "next/link";
-import { RiGithubLine, RiMailLine, RiPhoneLine } from "react-icons/ri";
 
 import ParticlesContainer from "../components/ParticlesContainer";
 import ProjectsBtn from "../components/ProjectsBtn";
@@ -13,7 +11,7 @@ const Home = () => {
     <div className="bg-primary/60 h-full">
       {/* text */}
       <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
-        <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto">
+        <div className="text-center flex flex-col justify-center xl:pt-28 xl:text-left h-full container mx-auto">
           {/* avatar */}
           <motion.div
             variants={fadeIn("down", 0.15)}
@@ -25,10 +23,10 @@ const Home = () => {
             <Image
               src="/profile-profile.jpg"
               alt="William Aaron Tindull"
-              width={288}
-              height={288}
+              width={320}
+              height={320}
               priority
-              className="w-44 h-44 xl:w-56 xl:h-56 rounded-full object-cover object-center border-4 border-accent shadow-xl shadow-accent/20"
+              className="w-40 h-40 xl:w-60 xl:h-60 rounded-full object-cover object-center border-4 border-accent shadow-xl shadow-accent/20"
             />
           </motion.div>
 
@@ -50,7 +48,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
+            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-6 xl:mb-10"
           >
             Senior software engineer with 10 years building secure, scalable
             SaaS platforms across healthcare, fintech, and e-commerce.
@@ -70,42 +68,6 @@ const Home = () => {
             className="hidden xl:flex"
           >
             <ProjectsBtn />
-          </motion.div>
-
-          {/* contact */}
-          <motion.div
-            variants={fadeIn("down", 0.5)}
-            initial="hidden"
-            animate="show"
-            exit="hidden"
-            className="flex flex-col sm:flex-row items-center justify-center xl:justify-start gap-4 sm:gap-x-8 mt-8 xl:mt-12"
-          >
-            <Link
-              href="tel:+16507610640"
-              title="Call"
-              className="flex items-center gap-x-2 hover:text-accent transition-all duration-300"
-            >
-              <RiPhoneLine className="text-xl text-accent" aria-hidden />
-              <span>1 650 761 0640</span>
-            </Link>
-            <Link
-              href="mailto:robbie.li0066@gmail.com"
-              title="Email"
-              className="flex items-center gap-x-2 hover:text-accent transition-all duration-300"
-            >
-              <RiMailLine className="text-xl text-accent" aria-hidden />
-              <span>robbie.li0066@gmail.com</span>
-            </Link>
-            <Link
-              href="https://github.com/passionhand"
-              title="GitHub"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="flex items-center gap-x-2 hover:text-accent transition-all duration-300"
-            >
-              <RiGithubLine className="text-xl text-accent" aria-hidden />
-              <span>passionhand</span>
-            </Link>
           </motion.div>
         </div>
       </div>
