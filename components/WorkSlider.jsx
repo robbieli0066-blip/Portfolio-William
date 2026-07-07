@@ -65,6 +65,15 @@ const workItems = [
       "A pricing automation and inventory management platform for secondary ticket market brokers. Continuously ingests live marketplace data to drive dynamic, rule-based pricing that keeps thousands of listings competitive in real time, while syncing inventory across major exchanges. Powers over 165,000 brokers managing billions in ticket inventory — now part of Automatiq.",
     tech: ["Dynamic Pricing", "Real-time", "Marketplace APIs", "SaaS"],
   },
+  {
+    title: "ExDetox No Contact Tracker",
+    path: "/exdetox.jpg",
+    link: "https://apps.apple.com/az/app/exdetox-no-contact-tracker/id6756420232",
+    category: "Mobile App Development",
+    description:
+      "A breakup recovery iOS app that helps users stay no-contact with an ex and navigate the healing process. Tracks no-contact streaks, lets users journal unsent messages to curb impulsive contact, and offers an AI breakup coach that adapts its support to each user's emotional phase. Rounds out recovery with reality checks, milestone rewards, guided journaling, daily detox tasks, and breakup psychology insights.",
+    tech: ["iOS", "Swift", "AI Coach", "Mobile"],
+  },
 ];
 
 // number of items per slide (matches the 2x1 grid)
