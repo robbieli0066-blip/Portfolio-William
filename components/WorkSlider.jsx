@@ -74,6 +74,15 @@ const workItems = [
       "A breakup recovery iOS app that helps users stay no-contact with an ex and navigate the healing process. Tracks no-contact streaks, lets users journal unsent messages to curb impulsive contact, and offers an AI breakup coach that adapts its support to each user's emotional phase. Rounds out recovery with reality checks, milestone rewards, guided journaling, daily detox tasks, and breakup psychology insights.",
     tech: ["iOS", "Swift", "AI Coach", "Mobile"],
   },
+  {
+    title: "Bayut UAE Property Search App",
+    path: "/bayut.jpg",
+    link: "https://apps.apple.com/ae/app/bayut-uae-property-search/id923263211",
+    category: "PropTech Mobile Development",
+    description:
+      "The iOS app for Bayut, the UAE's largest property portal — letting buyers and renters search thousands of apartments, villas, and commercial listings across Dubai, Abu Dhabi, and beyond. Features map-based discovery, rich filters, TruCheck verified listings, price trends, and direct agent contact, backed by real-time search over a high-volume property catalog.",
+    tech: ["iOS", "Maps", "Search", "PropTech"],
+  },
 ];
 
 // number of items per slide (matches the 2x1 grid)
